@@ -497,7 +497,7 @@ S.ShapeBuilder = (function () {
   var gap = 10,
       shapeCanvas = document.createElement('canvas'),
       shapeContext = shapeCanvas.getContext('2d'),
-      fontSize = 500,
+      fontSize = 50,
       fontFamily = 'Avenir, Helvetica Neue, Helvetica, Arial, sans-serif';
 
   function fit() {
