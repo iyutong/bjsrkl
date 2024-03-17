@@ -497,7 +497,7 @@ S.ShapeBuilder = (function () {
   var gap = 10,
       shapeCanvas = document.createElement('canvas'),
       shapeContext = shapeCanvas.getContext('2d'),
-      fontSize = 500,
+      fontSize = 200,
       fontFamily = 'Avenir, Helvetica Neue, Helvetica, Arial, sans-serif';
 
   function fit() {
@@ -707,7 +707,7 @@ S.Shape = (function () {
           }));
 
           dots[i].s = false;
-          dots[i].e = 0.04;
+          dots[i].e = 0.01;
           dots[i].move(new S.Point({ 
             x: Math.random() * a.w,
             y: Math.random() * a.h,
