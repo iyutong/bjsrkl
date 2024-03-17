@@ -25,8 +25,8 @@ div {
 }
 .g{
 	margin:20px auto;
-	width: 80%;
-	padding-top: 55%; /* 1:1 纵横比 */
+	width: 100%;
+	padding-top: 70%; /* 1:1 纵横比 */
     position: relative;
 }
 .card {
