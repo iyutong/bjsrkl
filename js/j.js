@@ -16,7 +16,7 @@ var S = {
     S.Drawing.loop(function () {
 	  m++;
       S.Shape.render();
-	  if(m==1200){
+	  if(m==1500){
 		 window.location.href="yh.html";
         const element = document.querySelector(".containe");
 		element.classList.add('yv');
@@ -494,10 +494,10 @@ S.Dot.prototype = {
 
 
 S.ShapeBuilder = (function () {
-  var gap = 10,
+  var gap = 12,
       shapeCanvas = document.createElement('canvas'),
       shapeContext = shapeCanvas.getContext('2d'),
-      fontSize = 200,
+      fontSize = 300,
       fontFamily = 'Avenir, Helvetica Neue, Helvetica, Arial, sans-serif';
 
   function fit() {
