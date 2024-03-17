@@ -26,7 +26,7 @@ var S = {
 
     S.UI.init();
 
-    S.UI.simulate('表姐好啊|祝你|十九岁|生日快乐|happy birthday|#icon cake-candles-solid|#countdown 3||');
+    S.UI.simulate('表姐好啊|祝你|十九岁|生日快乐|happy birthday|#countdown 3||');
 
     S.Drawing.loop(function () {
 
@@ -34,7 +34,7 @@ var S = {
 
       S.Shape.render();
 
-	  if(m==950){
+	  if(m==850){
 
 		 window.location.href="yh.html";
 
